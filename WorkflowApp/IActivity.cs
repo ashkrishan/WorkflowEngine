@@ -2,7 +2,7 @@
 {
     public interface IActivity
     {
-        void Execute(Activity activity);
+        void Execute();
     }
 
 }

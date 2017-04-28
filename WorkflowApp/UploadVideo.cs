@@ -8,7 +8,7 @@ namespace WorkflowApp
 {
     class UploadVideo : IActivity
     {
-        public void Execute(Activity activity)
+        public void Execute()
         {
             Console.WriteLine("Upload vid now");
         }

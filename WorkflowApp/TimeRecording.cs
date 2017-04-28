@@ -5,7 +5,7 @@ namespace WorkflowApp
     public class TimeRecording : IActivity
     {
 
-        public void Execute(Activity activity)
+        public void Execute()
         {
             Console.WriteLine("Time recording running");
         }

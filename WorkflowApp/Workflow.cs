@@ -17,7 +17,7 @@ namespace WorkflowApp
         {
             foreach (var activity in _activities)
             {
-                activity.Execute(new Activity());
+                activity.Execute();
             }
         }
 
