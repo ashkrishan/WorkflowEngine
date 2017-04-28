@@ -1,4 +1,4 @@
-﻿namespace WorkflowApp
+﻿namespace WorkFlowDll
 {
     public class Activity
     {

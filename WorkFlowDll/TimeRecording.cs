@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WorkflowApp
+namespace WorkFlowDll
 {
     public class TimeRecording : IActivity
     {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WorkFlowDll;
 
 namespace WorkflowApp
 {
@@ -13,8 +14,8 @@ namespace WorkflowApp
             var workflow = new Workflow();
             workflow.RegisterActivity(new TimeRecording());
             workflow.RegisterActivity(new UploadVideo());
-            var workflowEngine = new WorkflowEngine();
-            workflowEngine.Run(workflow);
+            var workflowEngine = new WorkflowEngine(workflow);
+            workflowEngine.Run();
             
         }
     }

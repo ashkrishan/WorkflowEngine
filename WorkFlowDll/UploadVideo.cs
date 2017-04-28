@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WorkflowApp
+namespace WorkFlowDll
 {
-    class UploadVideo : IActivity
+    public class UploadVideo : IActivity
     {
         public void Execute()
         {

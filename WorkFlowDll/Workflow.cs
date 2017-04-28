@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WorkflowApp
+namespace WorkFlowDll
 {
     public class Workflow
     {
@@ -13,7 +13,7 @@ namespace WorkflowApp
 
         }
 
-        public void RunWorkflow()
+       internal void RunWorkflow()
         {
             foreach (var activity in _activities)
             {
