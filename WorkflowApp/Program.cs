@@ -10,6 +10,12 @@ namespace WorkflowApp
     {
         static void Main(string[] args)
         {
+            var workflow = new Workflow();
+            workflow.RegisterActivity(new TimeRecording());
+            workflow.RegisterActivity(new UploadVideo());
+            var workflowEngine = new WorkflowEngine();
+            workflowEngine.Run(workflow);
+            
         }
     }
 }
